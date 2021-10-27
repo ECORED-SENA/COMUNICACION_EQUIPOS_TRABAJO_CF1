@@ -10,6 +10,9 @@ figcaption
 table caption
   font-weight: 400
   background-color: #EDFFD5
+table.tabla-2 caption
+  font-weight: 400
+  background-color: #A3EDFF
 
 
 .fondo-video
@@ -55,11 +58,30 @@ table caption
   background-image: url(../assets/curso/forma-3.png)
   background-position: bottom left
   background-repeat: no-repeat
+.bg-forma5
+  background-image: url(../assets/curso/forma-5.png)
+  background-position: bottom left
+  background-repeat: no-repeat  
 .fig-verde
   background-image: url(../assets/curso/forma-titulo.png)
   background-position: 0% 25% 
   background-repeat: no-repeat
-  
+.bg-tarjeta1
+  background-image: url(../assets/curso/tarjeta-1.png)
+  background-position: bottom left
+  background-repeat: no-repeat  
+.bg-tarjeta2
+  background-image: url(../assets/curso/tarjeta-2.png)
+  background-position: bottom left
+  background-repeat: no-repeat    
+.bg-cuadro-verde
+  background-image: url(../assets/curso/bg-cuadro-verde.png)
+  background-position: bottom
+  background-repeat: no-repeat
+.fondo-figura4
+  background-image: url(../assets/curso/fondo-figura4.png)
+  background-position: bottom
+  background-repeat: no-repeat  
 
 
 .bg-verde
@@ -82,17 +104,22 @@ table caption
 .degrade-azul2
   background-color: rgb(204,255,249)
   background-color: linear-gradient(180deg, rgba(204,255,249,1) 0%, rgba(137,255,242,1) 100%)
-.bg-cuadro-verde
-
+.degrade-azul3
+  background: rgb(45,240,218)
+  background: linear-gradient(180deg, rgba(45,240,218,1) 0%, rgba(69,198,229,1) 100%)
 
 .bordes-curvos
   border-top-left-radius: 50px
   border-bottom-right-radius: 50px
 .borde-curvo
   border-top-left-radius: 50px
+.borde-curvo-abajo
+  border-bottom-right-radius: 50px  
 .borde-naranja
   border: 3px solid #FF8900
   background-color: #EDFFD5  
+.bg-shadow
+  box-shadow: 1px 1px 9px 3px rgba(0,0,0,0.12)
 .figuras
   position: relative  
 .fig-2
@@ -164,8 +191,8 @@ td, th
 
 
 .tarjetas-iconos img
-  width: 110px
-  height: 110px
+  width: 90px
+  height: 90px
   margin: 0 auto
 
 
@@ -190,6 +217,43 @@ td, th
     right: -25px
   .slyder-a__btn--atrs
     left: -25px  
+
+
+// HOVER TEMA 1
+.tarjeta-hover
+  position: relative
+  background: rgb(45,240,218)
+  background: linear-gradient(180deg, rgba(45,240,218,1) 0%, rgba(69,198,229,1) 100%)
+  -webkit-transition: all 0.6s ease
+  -moz-transition: all 0.6s ease
+  transition: all 0.6s ease
+  padding: 3rem 1.5rem 
+  height: 354px
+.tarjeta-hover .front-1 h3.numero
+  color: #FFF
+  font-size: 60px
+  visibility: visible
+.tarjeta-hover .front-1 h2.titulo
+  color: #FFF
+  font-size: 38px
+.tarjeta-hover .front-2 h3.numero
+  font-size: 60px  
+.tarjeta-hover .front-1
+  display: contents
+.tarjeta-hover .front-2
+  display: none
+
+.tarjeta-hover:hover
+  background: rgb(204,255,249)
+  background: linear-gradient(180deg, rgba(204,255,249,1) 0%, rgba(137,255,242,1) 100%)
+  -webkit-transition: all 0.6s ease
+  -moz-transition: all 0.6s ease
+  transition: all 0.6s ease
+.tarjeta-hover:hover .front-1
+  display: none
+.tarjeta-hover:hover .front-2
+  display: contents
+
 
 
 // HOVER TEMA 4
