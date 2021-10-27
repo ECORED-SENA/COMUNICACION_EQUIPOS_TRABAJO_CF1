@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.fondo-video.p-4.p-md-5.mb-5
   
     .titulo-principal
       .titulo-principal__numero
@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.fondo-video
+    .row
       figure.mb-5
         img(src='@/assets/curso/intro-banner.png', alt='Texto que describa la imagen')
 
