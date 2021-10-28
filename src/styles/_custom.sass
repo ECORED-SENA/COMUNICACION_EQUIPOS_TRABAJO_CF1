@@ -24,7 +24,12 @@ table.tabla-2 caption
   background-image: url(../assets/curso/fondo-tema1.png)
   background-repeat: no-repeat
   background-size: contain
-  background-position: 50% 30% 
+  background-position: 50% 52% 
+.bloque-fondo-tema2
+  background-image: url(../assets/curso/fondo-tema2.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: 50% 110%    
 .bloque-fondo-tema3
   background-image: url(../assets/curso/fondo-tema3.png)
   background-repeat: no-repeat
@@ -97,7 +102,7 @@ table.tabla-2 caption
 .bg-azul3
   background-color: #A3EDFF
 .bg-azul4
-  background-color: #CCFFF9  
+  background-color: #CCFFF9
 .degrade-azul
   background: rgb(204,255,249)
   background: linear-gradient(90deg, rgba(204,255,249,1) 0%, rgba(137,255,242,1) 100%)
@@ -143,6 +148,10 @@ table.tabla-2 caption
   color: #FF8900
   font-size: 12px   
   padding-top: 2px
+.lista-ul--color.lista-verde li > i:first-of-type
+  color: #A9F73F !important
+  font-size: 12px   
+  padding-top: 2px  
 .tarjeta--container > .tarjeta:first-child
   border-bottom-left-radius: 0px !important
 .tarjeta--container > .tarjeta:last-child    
@@ -186,14 +195,21 @@ table.tabla-2 caption
   padding: 15px 0px
   font-size: 17px
   border-color: #45C6E5
-td, th
+td
   border: 1px solid #1D7E96
-
+  background-color: #FFF
 
 .tarjetas-iconos img
   width: 90px
   height: 90px
   margin: 0 auto
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  color: $color-sistema-texto
+.tabs-a__tab
+  background-color: #2DF0DA
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  color: $color-sistema-texto
 
 
 
@@ -254,6 +270,77 @@ td, th
 .tarjeta-hover:hover .front-2
   display: contents
 
+.modal-1 .modal-a__content
+  background-color: #35A3BE 
+.boton.color-acento-botones *, .color-acento-botones.boton--sm *
+  color: $color-sistema-texto
+.modal-2 .modal-a__content
+  background-image: url(../assets/curso/bg-modal.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: bottom center  
+
+
+// BOTONES TEMA 2
+.botones
+  position: relative
+.botones__btn
+  position: absolute
+  cursor: pointer
+  background-color: #EDFFD5
+  border: 2px dashed #FF8900
+  width: 150px
+  height: 150px
+  text-align: center
+  display: flex
+  flex-direction: column
+  justify-content: center
+  border-radius: 50%
+.botones__btn i
+  background-color: #ddd
+  border-radius: 50%
+  width: fit-content
+  padding: 2px 5px
+  margin: 0 auto
+.btn1
+  top: 40%
+  left: 5%
+.btn2  
+  top: 6%
+  left: 15%
+.btn3  
+  top: 6%
+  right: 15%
+.btn4 
+  top: 40%
+  right: 5%    
+
+.botones__btn:hover 
+  border-top-style: solid
+  border-right-style: solid
+  border-bottom-style: solid
+  border-left-style: solid
+  transition: border-top-style 0.55s linear, border-right-style 0.55s linear 0.60s, border-bottom-style 0.65s linear 0.70s, border-left-style 0.70s linear 0.55s;
+
+
+@media (max-width: $bp-max-md)
+  .botones__btn
+    width: 90px
+    height: 90px
+  .botones__btn h5
+    font-size: 9px  
+  .btn1
+    top: 50%
+    left: 5%
+  .btn2  
+    top: 3%
+    left: 12%
+  .btn3  
+    top: 3%
+    right: 12%
+  .btn4 
+    top: 50%
+    right: 5%  
 
 
 // HOVER TEMA 4

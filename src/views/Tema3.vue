@@ -215,6 +215,7 @@ export default {
   },
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
