@@ -3,7 +3,8 @@ export default {
     componenteFormativo: 'La comunicación en la cultura organizacional',
     descripcionCurso:
       'Este componente formativo se propone para que las organizaciones formulen estrategias y canales de comunicación asertivos que propicien mejores resultados en productividad, calidad en sus bienes y servicios ofertados.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal-1.png'),
+    imagenBannerPrincipal2: require('@/assets/curso/banner-principal-2.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {

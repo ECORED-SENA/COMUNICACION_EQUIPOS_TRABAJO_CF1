@@ -1,8 +1,10 @@
 <template lang="pug">
 .banner-principal
-  .container.tarjeta(
+  
+  .container.degrade.tarjeta(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
+    
     .row.banner-principal__row
       .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
         .banner-principal__componente
@@ -16,9 +18,13 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         .contenedor-imagenes
-          .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/flotantes1.svg")
-          .imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/flotantes2.svg")
-          img(:src="globalData.imagenBannerPrincipal")
+          img.banner-img1(:src="globalData.imagenBannerPrincipal")
+          img.banner-img2(:src="globalData.imagenBannerPrincipal2")
+          .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/flotante-1.svg")
+          .imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/flotante-2.svg")
+          .imagen_flotante.imagen_flotante_3: img(src="@/assets/curso/flotante-3.svg")
+          .imagen_flotante.imagen_flotante_4: img(src="@/assets/curso/flotante-4.svg")
+          
 </template>
 
 <script>
@@ -35,6 +41,34 @@ export default {
 </script>
 
 <style lang="sass">
+.banner-img1
+  position: absolute
+  top 0%
+  -webkit-backface-visibility: hidden
+  animation: fade 8s ease-in-out infinite
+@keyframes fade
+  0%
+    opacity: 1
+  33%
+    opacity: 0
+  66%
+    opacity: 1
+  100%
+    opacity: 0
+.banner-img2
+  -webkit-backface-visibility: hidden
+  animation: fade2 8s ease-in-out infinite
+@keyframes fade2
+  0%
+    opacity: 0
+  33%
+    opacity: 1
+  66%
+    opacity: 0
+  100%
+    opacity: 1
+
+
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
@@ -96,36 +130,51 @@ export default {
         padding-bottom: 3rem!important
 .contenedor-imagenes
   position: relative
+
 .imagen_flotante
   &_1
-    animation: float 6s ease-in-out infinite
+    animation: float1 5s ease-in-out infinite
     position: absolute
-    top: 45px;
-    left: 0px;
-    width: 99%;
-
+    top: 26%
+    left: 9%
+    width: 75px
   &_2
-    animation: float2 6s ease-in-out infinite
-    top: 45px
-    left: 0px
+    animation: float2 5s ease-in-out infinite
     position: absolute
-
-@keyframes float
+    top: 12%
+    left: 73%
+    width: 75px
+  &_3
+    animation: float2 5s ease-in-out infinite
+    position: absolute
+    top: 70%
+    left: 19%
+    width: 75px
+  &_4
+    animation: float3 5s ease-in-out infinite
+    position: absolute
+    top: 62%
+    left: 73%
+    width: 75px
+@keyframes float1
 	0%
-		transform: translatey(0px)
-
+  	transform: translatex(20px)
 	50%
-		transform: translatey(-20px)
-
+		transform: translatex(0px)
 	100%
-		transform: translatey(s0px)
+		transform: translatex(20px)
 @keyframes float2
 	0%
-		transform: translatey(-20px)
-
+  	transform: translatey(0px)
 	50%
-		transform: translatey(0px)
-
-	100%
 		transform: translatey(-20px)
+	100%
+		transform: translatey(s0px)
+@keyframes float3
+	0%
+  	transform: translatex(0px)
+	50%
+		transform: translatex(-20px)
+	100%
+		transform: translatex(s0px)
 </style>
