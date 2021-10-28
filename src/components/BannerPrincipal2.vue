@@ -1,11 +1,11 @@
 <template lang="pug">
 .banner-principal
   
-  .container.degrade.tarjeta(
-    :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
-  )
+  .container.degrade.tarjeta
     
-    .row.banner-principal__row
+    .row.banner-principal__row(
+      :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
+    )
       .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
@@ -67,6 +67,23 @@ export default {
     opacity: 0
   100%
     opacity: 1
+
+
+.banner-principal__row
+  background-size: cover
+  background-position: center
+.banner-principal .degrade
+  background: linear-gradient(-45deg, #2DF0DA, #45C6E5, #2DF0DA)
+  background-size: 200% 200% !important
+  animation: gradient 6s ease infinite
+@keyframes gradient
+  0%
+		background-position: 0% 50%
+  50%
+    background-position: 100% 50%
+  100%
+    background-position: 0% 50%
+
 
 
 .banner-principal
