@@ -45,7 +45,7 @@ export default {
   position: absolute
   top 0%
   -webkit-backface-visibility: hidden
-  animation: fade 8s ease-in-out infinite
+  animation: fade 10s linear infinite
 @keyframes fade
   0%
     opacity: 1
@@ -57,7 +57,7 @@ export default {
     opacity: 0
 .banner-img2
   -webkit-backface-visibility: hidden
-  animation: fade2 8s ease-in-out infinite
+  animation: fade2 10s linear infinite
 @keyframes fade2
   0%
     opacity: 0
