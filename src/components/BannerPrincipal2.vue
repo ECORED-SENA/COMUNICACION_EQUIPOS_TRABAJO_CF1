@@ -46,6 +46,7 @@ export default {
   top 0%
   -webkit-backface-visibility: hidden
   animation: fade 10s ease-in infinite
+  animation-direction: alternate
 @keyframes fade
   0%
     opacity: 1
@@ -58,6 +59,7 @@ export default {
 .banner-img2
   -webkit-backface-visibility: hidden
   animation: fade2 10s ease-out infinite
+  animation-direction: alternate
 @keyframes fade2
   0%
     opacity: 0
@@ -76,6 +78,7 @@ export default {
   background: linear-gradient(-45deg, #2DF0DA, #45C6E5, #2DF0DA)
   background-size: 200% 200% !important
   animation: gradient 6s ease infinite
+  animation-direction: alternate
 @keyframes gradient
   0%
 		background-position: 0% 50%
