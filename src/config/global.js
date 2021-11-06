@@ -254,13 +254,6 @@ export default {
     },
     {
       texto:
-        'Irusta, P. (2019, marzo, 12). 30 tipos de comunicación y sus principales características. [Web log post]. ',
-      tipo: 'Blogspot',
-      link:
-        'https://pedroirustamendieta.com/es/tipos-comunicacion-caracteristicas/',
-    },
-    {
-      texto:
         'Irusta, P. (2019, marzo, 12). 30 tipos de comunicación y sus principales características. [Web log post].',
       tipo: 'Blog',
       link:
@@ -357,7 +350,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Maria Camila Ovalle Ospina ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',

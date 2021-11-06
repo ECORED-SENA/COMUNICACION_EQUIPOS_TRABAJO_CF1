@@ -3,7 +3,7 @@
   
   .container.degrade.tarjeta
     
-    .row.banner-principal__row(
+    .row.banner-principal__row.tarjeta(
       :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
     )
       .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
@@ -45,7 +45,7 @@ export default {
   position: absolute
   top 0%
   -webkit-backface-visibility: hidden
-  animation: fade 10s ease-in infinite
+  animation: fade 12s ease-in infinite
   animation-direction: alternate
 @keyframes fade
   0%
@@ -58,7 +58,7 @@ export default {
     opacity: 0
 .banner-img2
   -webkit-backface-visibility: hidden
-  animation: fade2 10s ease-out infinite
+  animation: fade2 12s ease-out infinite
   animation-direction: alternate
 @keyframes fade2
   0%

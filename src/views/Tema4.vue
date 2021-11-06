@@ -102,7 +102,7 @@
       .col-lg-4.mb-3
         .contenedor-curva.p-4
           h1 Elementos de la comunicación no verbal
-          .rectangulo.mt-3
+          .rectangulo.mt-2
       .col-lg-4.mb-3
         .nav-holder(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
@@ -111,7 +111,7 @@
             p.mb-3.h4 
               strong Gestos
             p Están siempre presentes en una conversación, ayudan a comprender como es el estado emocional de una persona en un momento determinado. Ejemplo:  Movimiento de manos.
-            .rectangulo.mt-4
+            .rectangulo.mt-3
       .col-lg-4.mb-3
         .nav-holder
           img(src="@/assets/curso/tema4-1-hover3.svg", alt="Expresiones faciales")
@@ -119,7 +119,7 @@
             p.mb-3.h4 
               strong Expresiones faciales
             p Ayudan a determinar el estado de ánimo de una persona. Ejemplos:  Sonreír, mantener contacto visual.
-            .rectangulo.mt-4
+            .rectangulo.mt-3
       .col-lg-4.mb-3
         .nav-holder
           img(src="@/assets/curso/tema4-1-hover4.svg", alt="Posición del cuerpo")
@@ -127,7 +127,7 @@
             p.mb-3.h4 
               strong Posición del cuerpo
             p Indica la actitud que tiene una persona cuando esta interactuando o conversando. Ejemplo:  Cruzar los brazos puede significar que se está colocando una barrera a lo que está comentando un interlocutor.
-            .rectangulo.mt-3
+            .rectangulo.mt-2
       .col-lg-4.mb-3
         .nav-holder(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
@@ -144,7 +144,7 @@
             p.mb-3.h4 
               strong Paralenguaje o sonidos
             p Tono de voz, volumen y velocidad del habla, utilizándolos de diferente manera pueden cambiar el sentido del mensaje.
-            .rectangulo.mt-4
+            .rectangulo.mt-3
 
     Separador
 

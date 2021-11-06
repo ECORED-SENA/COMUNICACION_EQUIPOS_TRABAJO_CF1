@@ -171,7 +171,7 @@
             li.mb-0
               i.fas.fa-dot-circle
               | Escoger el lenguaje ideal que cautive al público objetivo.    
-    ModalA(:abrir-modal.sync="modal2")
+    ModalA.modal-1(:abrir-modal.sync="modal2")
       .row.text-white
         .col-md-6.mb-4.mb-md-0
           h4 Publicaciones internas.
@@ -213,7 +213,7 @@
               i.fas.fa-dot-circle 
               | Videoconferencias.
 
-    p.mb-4(data-aos="fade") Por lo anterior, se invita a visualizar siguiente tabla, la cual profundiza sobre los conceptos del análisis general de los medios, ver tabla 4.
+    p.mb-4(data-aos="fade") Por lo anterior, se invita a visualizar siguiente tabla, la cual profundiza sobre los conceptos del análisis general de los medios, ver tabla 3.
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 <b>Tabla 3.</b> Análisis general de medios
@@ -266,7 +266,7 @@
               ul.lista-ul--color.lista-naranja.mb-0
                 li.mb-0
                   i.fas.fa-dot-circle
-                  | Comunicación indirecta 
+                  | Comunicación indirecta.
                 li.mb-0
                   i.fas.fa-dot-circle
                   | Pública y masiva.
@@ -403,7 +403,7 @@
           h4 Mensaje verbal o no verbal
           p Es un proceso de comunicación que se muestra a través de gestos, expresiones o movimientos corporales.
           .titulo-sexto.color-acento-contenido.mb-2
-            h5.mb-0 COMUNICACIÓN verbal
+            h5.mb-0 COMUNICACIÓN VERBAL
           ul.lista-ul--color.lista-naranja.mb-5
             li.mb-0
               i.fas.fa-dot-circle
@@ -415,7 +415,7 @@
               i.fas.fa-dot-circle
               | También puede ser escrita mediante códigos escritos. 
           .titulo-sexto.color-acento-contenido.mb-2
-            h5.mb-0 COMUNICACIÓN no verbal
+            h5.mb-0 COMUNICACIÓN NO VERBAL
           ul.lista-ul--color.lista-naranja
             li.mb-0
               i.fas.fa-dot-circle
@@ -489,7 +489,7 @@
     p.mb-4(data-aos="fade") Sin embargo, la comunicación verbal y no verbal son dos de las más importantes, pero no podemos desconocer otros tipos de comunicación que forman parte de nuestro día a día y que es conveniente tenerlos en cuenta como, se menciona a continuación, ver tabla 4.
 
     .titulo-sexto.color-acento-contenido
-      p.mb-0 <b>Tabla 4.</b> Variables de la cultura organizacional
+      p.mb-0 <b>Tabla 4.</b> Otros tipos de comunicación
     .tabla-a.color-acento-contenido 
       table.tabla-2
         caption Nota. Elaboración propia a partir de Irusta (2019).
@@ -539,11 +539,11 @@
             td Periodística.
             td Se realiza a través de los medios de comunicación para mantener informados a los receptores.
           tr
-            td Olfativa.
+            td Publicitaria.
             td Comunicación para dar a conocer una marca o producto, dirigida a un público objetivo.
           tr
-            td Táctil.
-            td La información se transmite por medio del tacto.
+            td Política.
+            td Información de tipo político, con carga ideológica
           tr
             td(rowspan="3") 
               strong Canal o medio tecnológico

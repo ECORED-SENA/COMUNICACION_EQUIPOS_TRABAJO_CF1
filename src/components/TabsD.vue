@@ -41,6 +41,9 @@ export default {
 </script>
 
 <style lang="sass">
+.tabs-b__tab:active, .tabs-b__tab:focus, .tabs-b__tab:hover
+  background-color: #CCFFF9 !important
+
 .tabs-b
   .img2
     display: none
@@ -51,7 +54,7 @@ export default {
     flex-direction: column
     align-items: center
     padding: 20px
-    background-color: #F2FFFE
+    background-color: #CCFFF9
     border-right: 2px solid #1D7E96
     border-bottom: 0px
     cursor: pointer

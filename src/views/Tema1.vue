@@ -173,8 +173,6 @@
             i.fas.fa-dot-circle
             | Permitir la autonomía en la elaboración de diagnósticos y diseños de estrategia empresarial posteriores.      
 
-    p.mb-4(data-aos="fade") La cultura organizacional cuenta con variables que se definen a partir de dos dimensiones, la primera es simbólica, conformada por lo intangible que cuenta con un mensaje compartido y la segunda es manifiesta, es visible y se percibe en el día a día de la organización. Se detallan a continuación en la tabla 1, las variables de la cultura organizacional (Llanos, 2018, p.26):
-
     .row.justify-content-center.mb-4(data-aos="fade-down") 
       .col-md-10
         .bloque-texto-b.bloque-sin.color-secundario
