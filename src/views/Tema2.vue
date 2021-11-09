@@ -192,7 +192,7 @@
               i.fas.fa-dot-circle 
               | Publicaciones de control.
         .col-md-6
-          h4 Herramientas de comunicación formal e informal
+          h4 Herramientas de comunicación formal e informal.
           ul.lista-ul--color.lista-verde
             li.mb-0
               i.fas.fa-dot-circle

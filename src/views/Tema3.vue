@@ -159,7 +159,7 @@
               figure
                 img(src='@/assets/curso/tema3-fig6-1.svg', alt='Texto que describa la imagen')
           h4.text-center Comunicación verbal
-          p.text-center Conversación telefónica y escritura de una carta
+          p.text-center Conversación telefónica y escritura de una carta.
         .col-md.tarjeta.bg-verde2.p-5
           .row.justify-content-center.mb-4
             .col-11
