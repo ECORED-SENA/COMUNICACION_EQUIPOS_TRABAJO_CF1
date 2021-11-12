@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 5
-      h1 Definición y componentes de cultura organizacional
+      h1 Comunicación asertiva y efectiva
 
     .row
       .col-md-7.bloque-fondo-figura.mb-4(data-aos="fade-right")
