@@ -12,7 +12,7 @@
       .col-md-7.bloque-fondo-figura.mb-4(data-aos="fade-right")
         p El estilo de comunicación asertiva 
           strong.etiqueta es aquel donde prevalece el respeto hacia los otros y hacia uno mismo,
-          | está abierto a la opinión ajena, se acepta que la postura del interlocutor no tiene que coincidir con la que tiene el emisor, se evita el conflicto, pero no deja de expresar lo que piensa abierta, directa y honesta. Por lo tanto, para mejor comprensión se invita a visualizar el siguiente video que representa la comunicación asertiva.
+          | está abierto a la opinión ajena, se acepta que la postura del interlocutor no tiene que coincidir con la que tiene el emisor, se evita el conflicto, pero no deja de expresar lo que piensa abierta, directa y honestamente. Por lo tanto, para mejor comprensión se invita a visualizar el siguiente video que representa la comunicación asertiva.
       .col-md-5.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema5-img.png', alt='Texto que describa la imagen') 

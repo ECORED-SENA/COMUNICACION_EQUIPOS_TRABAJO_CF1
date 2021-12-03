@@ -189,8 +189,8 @@
         caption Nota. Adaptado de Llanos, 2018.
         thead
           tr
-            th DIMENSIÓN
-            th VARIABLE
+            th Dimensión
+            th Variable
             th Definición
         tbody
           tr
@@ -384,7 +384,7 @@
     p(data-aos="fade") Ya con un contexto de la organización, se hace más claro realizar una segmentación acertada para que los empleados respondan como se espera que lo hagan. 
 
     p(data-aos="fade") Para afianzar los conocimientos en establecer las características de la cultura organizacional en la empresa, se  puede revisar en el material complementario, el video 
-      strong.etiqueta ¿Qué es cultura organizacional y còmo se crea? 
+      strong.etiqueta ¿Qué es cultura organizacional y cómo se crea? 
 
     p.mb-4(data-aos="fade") Entre las técnicas de segmentación se encuentra:
 
@@ -393,7 +393,7 @@
 
     .row
       .col-md-6.mb-4(data-aos="fade-right")
-        p Es una técnica de marketing que sirve para determinar cuáles son los mejores clientes o a nivel interno, empleados. Las variables utilizadas para hacer la medición son:
+        p Es una técnica de <em>marketing</em> que sirve para determinar cuáles son los mejores clientes o a nivel interno, empleados. Las variables utilizadas para hacer la medición son:
         ul.lista-ul--color.lista-naranja
           li.mb-1
             i.fas.fa-dot-circle

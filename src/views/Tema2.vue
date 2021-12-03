@@ -80,11 +80,11 @@
             li.mb-0
               i.fas.fa-dot-circle
               | Elaborar las rutas para ejecutar el plan.    
-      .row.justify-content-center.tarjeta.bg-azul3.p-4(titulo="Criterios seleccionar medios")
+      .row.justify-content-center.tarjeta.bg-azul3.p-4(titulo="Criterios para seleccionar medios")
         .col-md-2
           img(src='@/assets/curso/tema2-1-tab3.svg', alt='Texto que describa la imagen') 
         .col-md-9
-          h4 Criterios seleccionar medios
+          h4 Criterios para seleccionar medios
           p Los puntos a tener en cuenta para seleccionar los medios son:  tipo de mensaje, características de las audiencias y del emisor, costos junto con las características de los medios (grado de participación, oportunidad y permanencia).
       .row.justify-content-center.tarjeta.bg-azul3.p-4(titulo="Características de los medios")
         .col-md-2
@@ -495,9 +495,9 @@
         caption Nota. Elaboración propia a partir de Irusta (2019).
         thead
           tr
-            th DEPENDIENDO de
-            th TIPO de comunicación
-            th CARACTERÍSTICA
+            th Dependiendo de
+            th Tipo de comunicación
+            th Característica
         tbody.text-center
           tr
             td(rowspan="5") 
