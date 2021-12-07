@@ -174,13 +174,13 @@ export default {
     },
     {
       referencia:
-        'Pérez, A. (2016, marzo, 4). ¿Cuáles son los tipos de comunicación más habituales en una empresa? [web log post]. Blogspot. ',
+        'Pérez, A. (2016, marzo, 4). ¿Cuáles son los estilos de comunicación más habituales en una empresa? [web log post]. Blogspot. ',
       link:
         'https://www.obsbusiness.school/blog/cuales-son-los-estilos-de-comunicacion-mas-habituales-en-una-empresa',
     },
     {
       referencia:
-        'Pradas, C. (2018, junio, 12). Tipos de comunicación no verbal: definición y ejemplos [web log post]. Blogspot. ',
+        'Pradas, C. (2018, junio, 12). Tipos de comunicación no verbal: definición y ejemplos [Psicología, - online]. ',
       link:
         'https://www.psicologia-online.com/tipos-de-comunicacion-no-verbal-definicion-y-ejemplos-3898.html',
     },
